@@ -1,0 +1,3 @@
+# LJ Code 301 - Day 15
+
+On day 15, I learned about middleware and managing app state. Middleware is like a chain of linked functions which pass along shared data from one to the next. Routing is an example of middleware where the request and response are delivered down a method chain until a route is found capable of handling the request. Because middleware generally has the same set of parameters, an object can be passed along containing information to be used later down the line.
